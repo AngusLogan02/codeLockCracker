@@ -3,11 +3,6 @@ import time
 import msvcrt
 import sys
 
-def endProgram():
-    raise KeyboardInterrupt
-
-kb.add_hotkey("ctrl+space", endProgram)
-
 startingDigit = int(input("Thousand to start on (0 for default): "))
 print("Ok. Press CTRL + C when code has been broken.")
 
