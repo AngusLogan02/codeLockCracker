@@ -14,7 +14,7 @@ while True:
             for digit3 in range(0,10):
                 for digit4 in range(0,10):
 
-                    if kb.is_pressed('/'):
+                    if kb.is_pressed(';'):
                         sys.exit()
                     
                     code = (str(digit1)+str(digit2)+str(digit3)+str(digit4))
